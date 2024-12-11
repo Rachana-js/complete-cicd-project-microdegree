@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_TAG = "20241003"
-        IMAGE_NAME = "manojkrishnappa/fullstack"
+        IMAGE_NAME = "rachanajs/fullstack"
         AWS_REGION = "us-east-1"
         CLUSTER_NAME = "microdegree-cluster"
     }
