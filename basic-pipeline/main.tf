@@ -4,7 +4,7 @@ provider "aws" {
     secret_key = "x+"
 }
 resource "aws_instance" "instance-1" {
-    ami = "ami-0e86e20dae9224db8"
+    ami = "ami-0166fe664262f664c"
     instance_type = "t2.micro"
     count = "1"
     security_groups = ["default"]
